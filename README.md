@@ -1,7 +1,7 @@
 Memcache Search
 ==============
 PHP library that allows to search keys in memcache. It uses `lru_crawler` non-blocking mechanism to iterate between memcache keys. 
- This libary *does not require memcache extension to be installed*.
+ This libary **does not require memcache extension to be installed**.
 
 Installation
 ------------
