@@ -2,6 +2,11 @@ Memcache Search
 ==============
 PHP library that allows to search keys in memcache. It uses `lru_crawler` non-blocking mechanism to iterate between memcache keys. 
  This libary **does not require memcache extension to be installed**.
+ 
+Why it's better then other solution?
+------------------------------------
+1. Standart [`Memcached`](https://www.php.net/manual/en/book.memcached.php) extension have function `getAllKeys` which is based on [`memcached_dump`](http://docs.libmemcached.org/memcached_dump.html) function which is not guarentee to dump all keys.
+2. Standart [`Memcache`](https://www.php.net/manual/en/book.memcache.php) extension does not have such functionallity and have [different](https://stackoverflow.com/questions/9831395/how-can-i-query-memcached-with-php-to-get-a-list-of-all-its-keys-in-storage) [solutions](https://stackoverflow.com/questions/19560150/get-all-keys-set-in-memcached) based on `stats cachedump` which have memcache server performance impact and once again not guarentee to dump all keys.
 
 Installation
 ------------
