@@ -1,0 +1,26 @@
+{
+	"name": "qmegas/memcache-search",
+	"type": "library",
+	"description": "PHP library to search memcache keys",
+	"version": "0.1.0",
+	"keywords": [
+		"memcache",
+		"memcached",
+		"key search"
+	],
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Qmegas",
+			"homepage": "http://qmegas.info"
+        }
+    ],
+	"require": {
+        "php": ">=7.1"
+    },
+	"autoload": {
+		"psr-4": {
+            "Qmegas\\": "src/"
+        }
+	}
+}
