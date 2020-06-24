@@ -43,7 +43,8 @@ class MemcacheSearch
 					}
 					
 					$key = new MemcacheItem($line);
-					if (!$finder->match($key)) {
+					$match = is_callable($finder) ? $finder($key) : $finder->match($key);
+					if (!$match) {
 						continue;
 					}
 					$key->setServer($domain);
