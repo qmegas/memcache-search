@@ -57,3 +57,8 @@ foreach ($search->search(function(\Qmegas\MemcacheItem $item): bool {
 	...
 }
 ```
+
+License
+-------
+
+The library is open-sourced software licensed under the [MIT license](LICENSE.md).

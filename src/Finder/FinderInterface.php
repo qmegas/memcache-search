@@ -2,7 +2,7 @@
 
 namespace Qmegas\Finder;
 
-interface FinderInterface
+interface FinderInterface 
 {
-	public function match(\Qmegas\MemcacheItem $item): bool;
+    public function match(\Qmegas\MemcacheItem $item): bool;
 }
