@@ -16,7 +16,7 @@ composer require qmegas/memcache-search
 
 Requirements
 ------------
-* PHP >= 7.0
+* PHP >= 7.1
 * Memcache server should work on unix-like system and be >= 1.4.24
 
 Usage Examples

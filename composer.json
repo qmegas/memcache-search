@@ -2,7 +2,7 @@
     "name": "qmegas/memcache-search",
     "type": "library",
     "description": "PHP library to search memcache keys",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "keywords": [
         "memcache",
         "memcached",
@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
